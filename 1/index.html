@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="container d-flex justify-content-center pt-5">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#baitap1">Bài 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#baitap2">Bài 2</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="baitap1">
+                <div class="bai1 m-5 p-5 container">
+                    <h1>Bài 1: Quản lý tuyển sinh</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" type="number" id="diemChuan" placeholder="Điểm chuẩn" />
+                        <select id="khuVuc">
+                            <option value="0">Chọn khu vực</option>
+                            <option value="2">A</option>
+                            <option value="1">B</option>
+                            <option value="0.5">C</option>
+                        </select>
+                        <select id="doiTuong">
+                            <option value="0">Chọn đối tượng</option>
+                            <option value="2.5">1</option>
+                            <option value="1.5">2</option>
+                            <option value="1">3</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" type="number" id="diem1" placeholder="Điểm môn thứ 1">
+                        <input class="form-control w-25" type="number" id="diem2" placeholder="Điểm môn thứ 2">
+                        <input class="form-control w-25" type="number" id="diem3" placeholder="Điểm môn thứ 3">
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-dark" id="btnKetQua">Kết Quả</button>
+                    </div>
+                    <div class="text-center">
+                        <h3 id="ketQuaBai1">
+                            =>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="baitap2">
+                <div class="bai2 m-5 p-5 container">
+                    <h1>Bài 2: Tính tiền điện</h1>
+                    <div class="d-flex justify-content-center pt-5">
+                        <input class="form-control w-25" id="ten" placeholder="Nhập họ tên" />
+                        <input class="form-control w-25" id="soDien" type="number" placeholder="Nhập số kw" />
+                    </div>
+                    <div class="text-center p-5">
+                        <button class="btn btn-dark" id="btnTinhTienDien">Tính Tiền Điện</button>
+                    </div>
+                    <div class="text-center">
+                        <h3 id="ketQuaBai2">
+                            =>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

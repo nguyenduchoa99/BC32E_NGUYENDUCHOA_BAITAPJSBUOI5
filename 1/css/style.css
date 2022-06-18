@@ -1,0 +1,54 @@
+.bai1 {
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.bai1 #khuVuc{
+    margin-right: 20px;
+}
+
+.bai1 input{
+    margin-right: 20px;
+}
+
+.bai1 select{
+    border-radius: 5px;
+    padding: 5px 70px;
+}
+
+.bai1 .btn{
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bai2 {
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 25px;        
+}
+
+.bai2 input{
+    margin-right: 20px;
+}
+
+.bai2 .btn{
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+ul li{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
